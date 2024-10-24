@@ -1,6 +1,6 @@
 // your code here
 let button = document.getElementById('button');
-button.addEventListener(click,() => {
+button.addEventListener('click',() => {
 	const baseUrl = "https://localhost:8080/";
     const name = document.getElementById('name').value;
     const year = document.getElementById('year').value;
